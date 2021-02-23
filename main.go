@@ -8,10 +8,11 @@ import (
 	"os/exec"
 	"strings"
 )
-//"\"C:\\Program Files (x86)\\AnthemScore\\AnthemScore.exe\""
+
 const AudioSavePath = "C:\\Users\\Dell\\Desktop\\musictranscription\\Music-Transcription\\Audio\\"
 const ExecuteProgramPath = "C:\\Program Files (x86)\\AnthemScore\\AnthemScore.exe"
 const SaveXMLPath = "C:\\Users\\Dell\\Desktop\\musictranscription\\Music-Transcription\\MusicXML\\"
+
 func main(){
 	fmt.Println(ExecuteProgramPath)
 	router := gin.Default()
